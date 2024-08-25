@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+/* Header Styles */
+header {
+    background-color:rgb(116, 161, 170);
+    color:rgb(250, 245, 245) ;
+    width: 100%;
+    padding-left: 20px;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+} 
+
+.logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+
+}
+
+.navigation ul{
+    display: flex;
+    margin-right: 100px;
+}
+.navigation ul a{
+    padding: 15px 20px;
+    color:rgb(1, 1, 1);
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+/* Main Section Styles */
+#Challenges {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(197, 223, 241);
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.Challenges div {
+    max-width: 600px;
+    align-items: center;
+
+}
+.chall {
+
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #9c93e6;
+  padding: 50px;
+  margin: 40px;
+  width: 300px;
+}
+
+.chall h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.chall p {
+  font-size: 16px;
+  color: #050404;
+}
+
+
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  
+  .up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .card1 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .whatsapp {
+    margin-top: 1.5em;
+    margin-left: 1.2em;
+    fill: #00ff00;
+  }
+  
+  .card2 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .linkedin {
+    margin-top: 1.5em;
+    margin-left: -0.9em;
+    fill: #0077b5;
+  }
+  
+  .card3 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .github {
+    margin-top: -0.6em;
+    margin-left: 1.2em;
+  }
+  
+  .card4 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .discord {
+    margin-top: -0.9em;
+    margin-left: -1.2em;
+    fill: #8c9eff;
+  }
+  
+  .card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #00ff00;
+  }
+  
+  .card1:hover .whatsapp {
+    fill: white;
+  }
+  
+  .card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #0077b5;
+  }
+  
+  .card2:hover .linkedin {
+    fill: white;
+  }
+  
+  .card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: black;
+  }
+  
+  .card3:hover .github {
+    fill: white;
+  }
+  
+  .card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #8c9eff;
+  }
+  
+  .card4:hover .discord {
+    fill: white;
+  }
+  
+h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+span {
+    color: #f39c12;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.main-btn:hover {
+    background-color: #2980b9;
+
+}
+
+#project-list {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.project {
+
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+}
+
+.project h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    color: #666;
+}
+
+.project-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.project-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#Coll {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+.service {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    
+}
+
+.service h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 16px;
+    color: #666;
+}
+#progress{
+   background-color: aliceblue;
+   display: flex;
+   justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+.pro {
+  background-color: #deef72;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  
+}
+
+.pro h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.pro p {
+  font-size: 16px;
+  color: #060000;
+}
+/* Footer Styles */
+footer {
+    background-color: #101610;
+    color: white ;
+    text-align: center;
+    align-items: center;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Styling for ul elements with class 'icons' */
+ul.icons {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove internal padding of the list */
+}
+
+/* Styling for li elements inside ul with class 'icons' */
+ul.icons li {
+    display: inline-block; /* Display list items in a single line */
+    margin-right: 10px; /* Horizontal spacing between list items */
+}
+
+/* Styling for links (a elements) inside ul with class 'icons' */
+ul.icons li a {
+    display: block; /* Make links block elements to apply full formatting */
+    text-decoration: none; /* Remove default link underline */
+    padding: 10px; /* Add internal spacing to links */
+    border: 1px solid #ccc; /* Add borders to links */
+    border-radius: 5px; /* Round the corners of the links */
+
+}
+
+/* Styling for icons inside links within ul with class 'icons' */
+ul.icons li a .icon {
+    font-size: 20px; /* Set icon size */
+    vertical-align: middle; /* Align the icon vertically in the middle of text */
+    margin-right: 5px; /* Horizontal spacing between icon and text */
+}
+footer p {
+    align-items: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .main {
+        height: auto;
+        padding: 50px 20px;
+    }
+    
+    h2 {
+        font-size: 28px;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+}
