@@ -1,1 +1,1 @@
-The webpage is called "Pro" and contains four sections. The first section is called "Challenge," where I answer questions about the challenges I faced in the program. The second section is "Collaboration," where I discuss with whom I collaborated and who helped me. The third section is about "Project Updates," where I provide updates on the projects I've undertaken in the program. The fourth section is "Progress," where I measure the level of progress I've made in the program and whether I will complete the work on time.
+portfolio project
